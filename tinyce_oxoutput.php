@@ -46,7 +46,7 @@ class tinyce_oxoutput extends tinyce_oxoutput_parent
             $backendLanguage = ($bLangId==0) ? "de" : "en";
 
             $code = <<<EOT
-<script type="text/javascript" src="../modules/tinyce/tiny_mce/tiny_mce.js"></script>
+<script type="text/javascript" src="../modules/tinyce-master/tiny_mce/tiny_mce.js"></script>
 <script type="text/javascript">
     function tinyce_copyLongDesc(ident) {
         var tiny = tinyMCE.get('editor_'+ident);
