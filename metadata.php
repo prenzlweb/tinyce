@@ -12,6 +12,6 @@ $aModule = array(
     'version'      => '1.0',
     'author'       => 'GN2 netwerk',
     'extend'       => array(
-        'oxoutput' => 'tinyce/tinyce_oxoutput'
+    'oxoutput'     => 'tinyce-master/tinyce_oxoutput'
     )
 );
